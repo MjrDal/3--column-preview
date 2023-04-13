@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+h1{
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 50px;
+    color: hsl(0, 0%, 95%);
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+p{
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-right: 90px;
+}
+
+.column-1{
+    width: 375px;
+    min-width: 375px;
+    height: 550px;
+    background-color: #e28525;
+    border-radius: 10px 0 0 10px;
+}
+
+.img1{
+    width: 60px;
+    height: 60px;
+    background: url(images/icon-sedans.svg) no-repeat;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.column-2{
+    width: 375px;
+    min-width: 375px;
+    height: 550px;
+    background-color: #016972;
+}
+
+.img2{
+    width: 60px;
+    height: 60px;
+    background: url(images/icon-suvs.svg) no-repeat;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.column-3{
+    width: 375px;
+    min-width: 375px;
+    height: 550px;
+    background-color: #00403f;
+    border-radius: 0 10px 10px 0;
+}
+
+.img3{
+    width: 60px;
+    height: 60px;
+    background: url(images/icon-luxury.svg) no-repeat;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* essais qui ne marche pas */
+/* .bp-box{
+    width: 180px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    border: 3px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* création du bouton */
+.bp-1{
+    width: 180px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    border: 3px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lexend Deca";
+    color: #e28525;
+    font-size: 20px;
+}
+
+.bp-2{
+    width: 180px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    border: 3px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lexend Deca";
+    color: #016972;
+    font-size: 20px;
+}
+
+.bp-3{
+    width: 180px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 70px;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    border: 3px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lexend Deca";
+    color: #00403f;
+    font-size: 20px;
+}
+
+
+/* création du lien */
+a{
+    text-decoration: none;    
+}
+/* création du survol du lien */
+a:hover{
+    background-color: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
